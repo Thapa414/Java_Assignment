@@ -1,3 +1,4 @@
+// CONSTRUCTOR CHAINING + OVERRIDING
 import java.util.Scanner;
 class Employee{
     String empName, empId;
@@ -34,23 +35,25 @@ public class Q3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String name, empId;
-        double basicSalary, bonus;
+        double basicSalary;
         System.out.println("\n\n\nEnter Employee details (Employee Name, Employee ID, Basic Salary) = ");
         name = sc.nextLine();
         empId = sc.nextLine();
         basicSalary = sc.nextDouble();
         sc.nextLine();
-
+        
         Employee e1 = new Employee(name, empId, basicSalary);
         System.out.println(e1);
-
+        
+        String Mname, MempId;
+        double MbasicSalary, bonus;
         System.out.println("Enter Manager's details (Manager Name, Manager ID, Basic Salary, Bonus) = ");
-        name = sc.nextLine();
-        empId = sc.nextLine();
-        basicSalary = sc.nextDouble();
+        Mname = sc.nextLine();
+        MempId = sc.nextLine();
+        MbasicSalary = sc.nextDouble();
         bonus = sc.nextDouble();
 
-        Manager m1 = new Manager(name, empId, basicSalary, bonus);
+        Manager m1 = new Manager(Mname, MempId, MbasicSalary, bonus);
         System.out.println(m1);
     }
 }

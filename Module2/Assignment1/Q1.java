@@ -1,5 +1,5 @@
+// ONE TO MANY RELATIONSHIP
 import java.util.Scanner;
-
 class Department{
     private String deptName;
     private String hodName;
@@ -14,7 +14,7 @@ class Department{
         i++;
     }
     void display1(){
-        System.out.println("\n\t\tDEPARTMENT NAME = "+deptName + "\nHOD name = "+hodName);
+        System.out.println("\n\n\t\tDEPARTMENT NAME = "+deptName + "\nHOD name = "+hodName);
         for(int j=0;j<i;j++)
         {
             Pf[j].display2();

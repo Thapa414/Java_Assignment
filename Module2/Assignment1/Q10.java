@@ -24,13 +24,23 @@ class Light implements Device{
 
 public class Q10{
     public static void main(String[] args){
-        Device d1 = new Fan();
-        d1.turnOn();
-        d1.turnOff();
-        System.out.println();
-        Device d2 = new Light();
-        d2.turnOn();
-        d2.turnOff();
+        // Device d1 = new Fan();
+        // d1.turnOn();
+        // d1.turnOff();
+        // System.out.println();
+        // Device d2 = new Light();
+        // d2.turnOn();
+        // d2.turnOff();
+        Device device;
+        Fan f = new Fan();
+        device = f;
+        f.turnOn();
+        f.turnOff();
+
+        Light l = new Light();
+        device = l;
+        l.turnOn();
+        l.turnOff();
 
     }
 }

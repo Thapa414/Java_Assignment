@@ -14,7 +14,7 @@ class HomeLoan extends Loan {
         super(p, t); 
     }
     public double calculateInterest() { 
-        return (principal * 8 * time) / 100; 
+        return ((principal * 8 * time) / 100); 
     }
 }
 
@@ -32,6 +32,6 @@ public class Q8 {
         Loan l1 = new HomeLoan(500000, 8);
         Loan l2 = new CarLoan(300000, 5);
         System.out.println("Home Loan Interest: " + l1.calculateInterest());
-        System.out.println("\n\nCar Loan Interest: " + l2.calculateInterest());
+        System.out.println("\nCar Loan Interest: " + l2.calculateInterest());
     }
 }

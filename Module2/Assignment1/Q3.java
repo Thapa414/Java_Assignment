@@ -47,7 +47,7 @@ public class Q3 {
         
         String Mname, MempId;
         double MbasicSalary, bonus;
-        System.out.println("Enter Manager's details (Manager Name, Manager ID, Basic Salary, Bonus) = ");
+        System.out.println("\nEnter Manager's details (Manager Name, Manager ID, Basic Salary, Bonus) = ");
         Mname = sc.nextLine();
         MempId = sc.nextLine();
         MbasicSalary = sc.nextDouble();

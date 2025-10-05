@@ -10,7 +10,7 @@ class Author{
         this.gender = gender;
     }
     public String toString(){
-        return ("\nAuthor: "+ name +"("+gender+") , Email: " +email);
+        return (name +"("+gender+") , Email: " +email);
     }
 }
 class Book{
@@ -44,6 +44,6 @@ public class Q6{
         Author a = new Author(name, email, gender);
         Book b = new Book(title, price, a);
 
-        System.out.println(a);
+        // System.out.println(a);
         System.out.println(b);
     }}

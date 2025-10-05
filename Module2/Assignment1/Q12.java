@@ -19,7 +19,7 @@ class Car extends Vehicle{
         return (baseRate*1.5);
     }
     public String toString(){
-        return ("Car "+ regNo + brand + "Rent: "+ calculateCost());
+        return ("Car "+ regNo +" "+ brand + " Rent: "+ calculateCost());
     }
 }
 class Bike extends Vehicle{
@@ -30,7 +30,7 @@ class Bike extends Vehicle{
         return (baseRate*1.2);
     }
     public String toString(){
-        return ("Bike "+ regNo + brand + "Rent: "+ calculateCost());
+        return ("Bike "+ regNo +" "+ brand + " Rent: "+ calculateCost());
     }
 }
 public class Q12{

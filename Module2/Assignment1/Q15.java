@@ -1,4 +1,4 @@
-
+// ONE TO ONE RELATIONSHIP
 class Passport{
     String passportNo,issueDate, expiryDate;
     Passport(String passportNo, String issueDate, String expiryDate){

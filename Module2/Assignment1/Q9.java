@@ -18,7 +18,7 @@ class Student {
         this.course = c; 
     }
     public String toString() { 
-        return ("\nudent: " + name + " Course: " + course); 
+        return ("\nStudent: " + name + " Course: " + course); 
     }
 }
 
